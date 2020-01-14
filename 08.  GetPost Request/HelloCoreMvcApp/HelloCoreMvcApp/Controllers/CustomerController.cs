@@ -9,7 +9,6 @@ namespace HelloCoreMvcApp.Controllers
 {
     public class CustomerController : Controller
     {
-        private Customer _Customer;
         public IActionResult Create()
         {
             return View();
@@ -20,17 +19,16 @@ namespace HelloCoreMvcApp.Controllers
         {
             if (ModelState.IsValid)
             {
-                _Customer = aCustomer;
-                return RedirectToAction("Details");
+                //Database code hare
+                return RedirectToAction("Details", aCustomer);
             }                      
             else
                 return View(aCustomer);
         }
 
-        public IActionResult Details()
+        public IActionResult Details(Customer aCustomer)
         {
-            var customerInfo = _Customer;
-            return View(customerInfo);
+            return View(aCustomer);
         }
     }
 }
