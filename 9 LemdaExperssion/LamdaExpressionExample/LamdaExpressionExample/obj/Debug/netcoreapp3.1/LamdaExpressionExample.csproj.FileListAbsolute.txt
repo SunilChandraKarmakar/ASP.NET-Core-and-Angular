@@ -1,0 +1,11 @@
+F:\C# Project\ASP.NET Core and Angular\9 LemdaExperssion\LamdaExpressionExample\LamdaExpressionExample\bin\Debug\netcoreapp3.1\LamdaExpressionExample.exe
+F:\C# Project\ASP.NET Core and Angular\9 LemdaExperssion\LamdaExpressionExample\LamdaExpressionExample\bin\Debug\netcoreapp3.1\LamdaExpressionExample.deps.json
+F:\C# Project\ASP.NET Core and Angular\9 LemdaExperssion\LamdaExpressionExample\LamdaExpressionExample\bin\Debug\netcoreapp3.1\LamdaExpressionExample.runtimeconfig.json
+F:\C# Project\ASP.NET Core and Angular\9 LemdaExperssion\LamdaExpressionExample\LamdaExpressionExample\bin\Debug\netcoreapp3.1\LamdaExpressionExample.runtimeconfig.dev.json
+F:\C# Project\ASP.NET Core and Angular\9 LemdaExperssion\LamdaExpressionExample\LamdaExpressionExample\bin\Debug\netcoreapp3.1\LamdaExpressionExample.dll
+F:\C# Project\ASP.NET Core and Angular\9 LemdaExperssion\LamdaExpressionExample\LamdaExpressionExample\bin\Debug\netcoreapp3.1\LamdaExpressionExample.pdb
+F:\C# Project\ASP.NET Core and Angular\9 LemdaExperssion\LamdaExpressionExample\LamdaExpressionExample\obj\Debug\netcoreapp3.1\LamdaExpressionExample.csprojAssemblyReference.cache
+F:\C# Project\ASP.NET Core and Angular\9 LemdaExperssion\LamdaExpressionExample\LamdaExpressionExample\obj\Debug\netcoreapp3.1\LamdaExpressionExample.AssemblyInfoInputs.cache
+F:\C# Project\ASP.NET Core and Angular\9 LemdaExperssion\LamdaExpressionExample\LamdaExpressionExample\obj\Debug\netcoreapp3.1\LamdaExpressionExample.AssemblyInfo.cs
+F:\C# Project\ASP.NET Core and Angular\9 LemdaExperssion\LamdaExpressionExample\LamdaExpressionExample\obj\Debug\netcoreapp3.1\LamdaExpressionExample.dll
+F:\C# Project\ASP.NET Core and Angular\9 LemdaExperssion\LamdaExpressionExample\LamdaExpressionExample\obj\Debug\netcoreapp3.1\LamdaExpressionExample.pdb
