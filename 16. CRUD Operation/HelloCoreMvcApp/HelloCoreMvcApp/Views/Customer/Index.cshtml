@@ -1,0 +1,45 @@
+﻿@using Models
+@model IEnumerable<Customer>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<h1>Customer Information</h1>
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        <a asp-action="Create" asp-controller="Customer" class="btn btn-success">Create Customer</a>
+    </div>
+</div>
+<div class="row" id="showcustomer">
+    <div class="col-md-12">
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Contact No</th>
+                    <th>Address</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Customer item in Model)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.ContactNo</td>
+                        <td>@item.Address</td>
+                        <td>
+                            <a href="../../Edit/@item.Id" class="btn btn-info">Edit</a>
+                            <a asp-action="Delete?@item.Id" asp-controller="Customer" class="btn btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
