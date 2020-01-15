@@ -9,7 +9,7 @@ namespace Db_Context.DatabaseContext
     public class CoreDb : DbContext
     {
         public DbSet<Customer> Customers { get; set; }
-
+              
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             string connectionString = @"Data Source = DESKTOP-HHA0TOP; 
