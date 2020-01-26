@@ -47,18 +47,43 @@ namespace HelloCoreMvcApp.Controllers
         }
 
         [HttpGet]
-        public IActionResult Edit(int? Id)
-        {
-            if (Id == null)
-                return BadRequest();
+        public IActionResult Edit(int Id)
+        {               
+            Customer aCustomer = _customerRepository.FindCustomer(Id);
 
+            if (aCustomer == null)
+                return NotFound();
+
+            ViewBag.AddressList = AddressList();
+            return View(aCustomer); 
+        }
+
+        [HttpPost]
+        public IActionResult Edit(Customer aCustomer)
+        {
+            if(ModelState.IsValid)
+            {
+                bool isSaved = _customerRepository.Edit(aCustomer);
+
+                if (isSaved)
+                    return RedirectToAction("Index", "Customer");
+                else
+                    return ViewBag.ErrorMessage = "Customer is not saved!";
+            }
+
+            ViewBag.AddressList = AddressList();
+            return View(aCustomer);
+        }
+
+        [HttpGet]
+        public IActionResult Delete(int Id)
+        {
             Customer aCustomer = _customerRepository.FindCustomer(Id);
 
             if (aCustomer == null)
                 return NotFound();
 
             return View(aCustomer);
-
         }
 
         public IActionResult Details(Customer aCustomer)

@@ -1,4 +1,5 @@
 ﻿using Db_Context.DatabaseContext;
+using Microsoft.EntityFrameworkCore;
 using Models;
 using System;
 using System.Collections.Generic;
@@ -27,9 +28,18 @@ namespace ProjectRepositorys
             return _db.Customers.Find(Id);
         }
 
-        public Customer FindCustomer(int? id)
+        public bool Edit(Customer aCustomer)
         {
-            throw new NotImplementedException();
+            _db.Entry(aCustomer).State = EntityState.Modified;
+            bool isSaved = _db.SaveChanges() > 0;
+            return isSaved;
+        }
+
+        public bool Delete(Customer aCustomer)
+        {
+            _db.Customers.Remove(aCustomer);
+            bool isDelete = _db.SaveChanges() > 0;
+            return isDelete;
         }
     }
 }

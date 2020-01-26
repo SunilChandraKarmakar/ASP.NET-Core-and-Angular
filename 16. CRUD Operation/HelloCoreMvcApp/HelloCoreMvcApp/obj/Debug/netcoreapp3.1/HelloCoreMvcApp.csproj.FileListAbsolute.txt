@@ -1436,3 +1436,5 @@ F:\C# Project\ASP.NET Core and Angular\16. CRUD Operation\HelloCoreMvcApp\HelloC
 F:\C# Project\ASP.NET Core and Angular\16. CRUD Operation\HelloCoreMvcApp\HelloCoreMvcApp\bin\Debug\netcoreapp3.1\ProjectRepositorys.dll
 F:\C# Project\ASP.NET Core and Angular\16. CRUD Operation\HelloCoreMvcApp\HelloCoreMvcApp\bin\Debug\netcoreapp3.1\ProjectRepositorys.pdb
 F:\C# Project\ASP.NET Core and Angular\16. CRUD Operation\HelloCoreMvcApp\HelloCoreMvcApp\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Index.cshtml.g.cs
+F:\C# Project\ASP.NET Core and Angular\16. CRUD Operation\HelloCoreMvcApp\HelloCoreMvcApp\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Edit.cshtml.g.cs
+F:\C# Project\ASP.NET Core and Angular\16. CRUD Operation\HelloCoreMvcApp\HelloCoreMvcApp\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Delete.cshtml.g.cs
