@@ -23,7 +23,7 @@ namespace ProjectRepositorys
             return _db.SaveChanges() > 0;
         }
 
-        public Customer FindCustomer(int Id)
+        public Customer FindCustomer(int? Id)
         {
             return _db.Customers.Find(Id);
         }
@@ -31,15 +31,13 @@ namespace ProjectRepositorys
         public bool Edit(Customer aCustomer)
         {
             _db.Entry(aCustomer).State = EntityState.Modified;
-            bool isSaved = _db.SaveChanges() > 0;
-            return isSaved;
+            return _db.SaveChanges() > 0;
         }
 
         public bool Delete(Customer aCustomer)
         {
             _db.Customers.Remove(aCustomer);
-            bool isDelete = _db.SaveChanges() > 0;
-            return isDelete;
+            return _db.SaveChanges() > 0;
         }
     }
 }

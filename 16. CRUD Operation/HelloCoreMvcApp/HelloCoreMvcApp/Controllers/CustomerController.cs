@@ -76,7 +76,7 @@ namespace HelloCoreMvcApp.Controllers
         }
 
         [HttpGet]
-        public IActionResult Delete(int Id)
+        public IActionResult Delete(int? Id)
         {
             Customer aCustomer = _customerRepository.FindCustomer(Id);
 
@@ -84,6 +84,18 @@ namespace HelloCoreMvcApp.Controllers
                 return NotFound();
 
             return View(aCustomer);
+        }
+
+        [HttpPost]
+        public IActionResult Delete(int Id)
+        {
+            Customer aCustomer = _customerRepository.FindCustomer(Id);
+            bool isDelete = _customerRepository.Delete(aCustomer);
+
+            if (isDelete)
+                return RedirectToAction("Index", "Customer");
+            else
+                return ViewBag.ErrorMessage = "Coustomer has not deleted!";
         }
 
         public IActionResult Details(Customer aCustomer)
