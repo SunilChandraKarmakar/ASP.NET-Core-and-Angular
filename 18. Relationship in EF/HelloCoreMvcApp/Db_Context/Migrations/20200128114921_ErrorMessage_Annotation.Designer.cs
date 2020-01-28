@@ -3,14 +3,16 @@ using Db_Context.DatabaseContext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Db_Context.Migrations
 {
     [DbContext(typeof(CoreDb))]
-    partial class CoreDbModelSnapshot : ModelSnapshot
+    [Migration("20200128114921_ErrorMessage_Annotation")]
+    partial class ErrorMessage_Annotation
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
