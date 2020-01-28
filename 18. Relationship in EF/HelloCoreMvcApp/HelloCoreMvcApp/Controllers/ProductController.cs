@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Models;
 using ProjectRepositorys;
 
 namespace HelloCoreMvcApp.Controllers
@@ -22,6 +23,21 @@ namespace HelloCoreMvcApp.Controllers
         {
             ViewBag.CategoryList = _productRepository.GetAllCategory();
             return View();
+        }
+
+        [HttpGet]
+        public IActionResult Edit(int? Id)
+        {
+            if (Id == null)
+                NotFound();
+
+            Product aProduct = _productRepository.FindProduct(Id);
+
+            if (aProduct == null)
+                NotFound();
+
+            ViewBag.CategoryList = _productRepository.GetAllCategory();
+            return View(aProduct);
         }
     }
 }

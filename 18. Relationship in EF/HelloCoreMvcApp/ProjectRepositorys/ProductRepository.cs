@@ -20,5 +20,10 @@ namespace ProjectRepositorys
         {
             return _coreDb.Categories.ToList();
         }
+
+        public Product FindProduct(int? Id)
+        {
+            return _coreDb.Products.Find(Id);
+        }
     }
 }
