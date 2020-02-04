@@ -1728,3 +1728,6 @@ F:\C# Project\ASP.NET Core and Angular\18. Relationship in EF\HelloCoreMvcApp\He
 F:\C# Project\ASP.NET Core and Angular\18. Relationship in EF\HelloCoreMvcApp\HelloCoreMvcApp\obj\Debug\netcoreapp3.1\Razor\Views\Country\Index.cshtml.g.cs
 F:\C# Project\ASP.NET Core and Angular\18. Relationship in EF\HelloCoreMvcApp\HelloCoreMvcApp\obj\Debug\netcoreapp3.1\Razor\Views\Country\Create.cshtml.g.cs
 F:\C# Project\ASP.NET Core and Angular\18. Relationship in EF\HelloCoreMvcApp\HelloCoreMvcApp\obj\Debug\netcoreapp3.1\Razor\Views\Country\Edit.cshtml.g.cs
+F:\C# Project\ASP.NET Core and Angular\18. Relationship in EF\HelloCoreMvcApp\HelloCoreMvcApp\obj\Debug\netcoreapp3.1\Razor\Views\Country\Delete.cshtml.g.cs
+F:\C# Project\ASP.NET Core and Angular\18. Relationship in EF\HelloCoreMvcApp\HelloCoreMvcApp\obj\Debug\netcoreapp3.1\Razor\Views\City\Create.cshtml.g.cs
+F:\C# Project\ASP.NET Core and Angular\18. Relationship in EF\HelloCoreMvcApp\HelloCoreMvcApp\obj\Debug\netcoreapp3.1\Razor\Views\City\Index.cshtml.g.cs

@@ -32,5 +32,11 @@ namespace ProjectRepositorys
             _coreDb.Entry(aCountry).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
             return _coreDb.SaveChanges() > 0;
         }
+
+        public bool Delete(Country aCountry)
+        {
+            _coreDb.Countries.Remove(aCountry);
+            return _coreDb.SaveChanges() > 0;
+        }
     }
 }

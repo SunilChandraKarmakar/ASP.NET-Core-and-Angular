@@ -7,6 +7,12 @@ namespace Models
 {
     public class City
     {
+        public City()
+        {
+            if (Country == null)
+                Country = new Country();
+        }
+
         public int Id { get; set; }
 
         [Required]

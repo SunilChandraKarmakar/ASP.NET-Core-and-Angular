@@ -69,5 +69,30 @@ namespace HelloCoreMvcApp.Controllers
             
             return View(aCountry);
         }
+
+        [HttpGet]
+        public IActionResult Delete(int? Id)
+        {
+            if (Id == null)
+                return NotFound();
+
+            Country aCountry = _countryRepository.FindCountry(Id);
+
+            if (aCountry == null)
+                return NotFound();
+
+            return View(aCountry);
+        }
+
+        [HttpPost]
+        public IActionResult Delete(Country aCountry)
+        {
+            bool isDelete = _countryRepository.Delete(aCountry);
+
+            if (isDelete)
+                return RedirectToAction("Index", "Country");
+            else
+                return ViewBag.ErrorMessage = "Country failed to delete!";
+        }
     }
 }
