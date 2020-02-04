@@ -25,6 +25,23 @@ namespace HelloCoreMvcApp.Controllers
             return View();
         }
 
+        [HttpPost]
+        public IActionResult Create(Product aProduct)
+        {
+            if(ModelState.IsValid)
+            {
+                bool isSaved = _productRepository.Create(aProduct);
+
+                if (isSaved)
+                    return RedirectToAction("Index", "Product");
+                else
+                    return ViewBag.ErrorMessage = "Product have not saved!";
+            }
+
+            ViewBag.CategoryList = _productRepository.GetAllCategory();
+            return View(aProduct);
+        }
+
         [HttpGet]
         public IActionResult Edit(int? Id)
         {

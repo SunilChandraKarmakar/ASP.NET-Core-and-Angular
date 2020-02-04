@@ -25,5 +25,11 @@ namespace ProjectRepositorys
         {
             return _coreDb.Products.Find(Id);
         }
+
+        public bool Create(Product aProduct)
+        {
+            _coreDb.Products.Add(aProduct);
+            return _coreDb.SaveChanges() > 0;
+        }
     }
 }

@@ -6,7 +6,12 @@ using System.Text;
 namespace Models
 {
     public class Category
-    {
+    {         
+        public Category()
+        {
+            Products = new List<Product>();
+        }
+
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Please give Code")]
@@ -17,6 +22,6 @@ namespace Models
         [StringLength(30, MinimumLength = 3)]
         public string Name { get; set; }    
 
-        public IEnumerable<Product> Products { get; set; }
+        public virtual IEnumerable<Product> Products { get; set; }
     }
 }
