@@ -1,0 +1,11 @@
+F:\C# Project\ASP.NET Core and Angular\21 Inheritance and Polymorphism\AnimalSimulatorApp\AnimalSimulatorApp\bin\Debug\netcoreapp3.1\AnimalSimulatorApp.exe
+F:\C# Project\ASP.NET Core and Angular\21 Inheritance and Polymorphism\AnimalSimulatorApp\AnimalSimulatorApp\bin\Debug\netcoreapp3.1\AnimalSimulatorApp.deps.json
+F:\C# Project\ASP.NET Core and Angular\21 Inheritance and Polymorphism\AnimalSimulatorApp\AnimalSimulatorApp\bin\Debug\netcoreapp3.1\AnimalSimulatorApp.runtimeconfig.json
+F:\C# Project\ASP.NET Core and Angular\21 Inheritance and Polymorphism\AnimalSimulatorApp\AnimalSimulatorApp\bin\Debug\netcoreapp3.1\AnimalSimulatorApp.runtimeconfig.dev.json
+F:\C# Project\ASP.NET Core and Angular\21 Inheritance and Polymorphism\AnimalSimulatorApp\AnimalSimulatorApp\bin\Debug\netcoreapp3.1\AnimalSimulatorApp.dll
+F:\C# Project\ASP.NET Core and Angular\21 Inheritance and Polymorphism\AnimalSimulatorApp\AnimalSimulatorApp\bin\Debug\netcoreapp3.1\AnimalSimulatorApp.pdb
+F:\C# Project\ASP.NET Core and Angular\21 Inheritance and Polymorphism\AnimalSimulatorApp\AnimalSimulatorApp\obj\Debug\netcoreapp3.1\AnimalSimulatorApp.csprojAssemblyReference.cache
+F:\C# Project\ASP.NET Core and Angular\21 Inheritance and Polymorphism\AnimalSimulatorApp\AnimalSimulatorApp\obj\Debug\netcoreapp3.1\AnimalSimulatorApp.AssemblyInfoInputs.cache
+F:\C# Project\ASP.NET Core and Angular\21 Inheritance and Polymorphism\AnimalSimulatorApp\AnimalSimulatorApp\obj\Debug\netcoreapp3.1\AnimalSimulatorApp.AssemblyInfo.cs
+F:\C# Project\ASP.NET Core and Angular\21 Inheritance and Polymorphism\AnimalSimulatorApp\AnimalSimulatorApp\obj\Debug\netcoreapp3.1\AnimalSimulatorApp.dll
+F:\C# Project\ASP.NET Core and Angular\21 Inheritance and Polymorphism\AnimalSimulatorApp\AnimalSimulatorApp\obj\Debug\netcoreapp3.1\AnimalSimulatorApp.pdb
