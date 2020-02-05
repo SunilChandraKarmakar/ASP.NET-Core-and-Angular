@@ -6,7 +6,7 @@ using System.Text;
 namespace Models
 {
     public class Product
-    {  
+    {    
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Please give Product Name")]

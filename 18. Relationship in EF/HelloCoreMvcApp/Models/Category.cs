@@ -6,12 +6,7 @@ using System.Text;
 namespace Models
 {
     public class Category
-    {         
-        public Category()
-        {
-            Products = new List<Product>();
-        }
-
+    {    
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Please give Code")]

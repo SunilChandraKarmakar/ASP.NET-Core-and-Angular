@@ -29,6 +29,7 @@ namespace Db_Context.DatabaseContext
                                     Initial Catalog = CustomerDb; 
                                     Integrated Security = true";
             optionsBuilder.UseSqlServer(connectionString);
+            optionsBuilder.UseLazyLoadingProxies();
         }
     }
 }

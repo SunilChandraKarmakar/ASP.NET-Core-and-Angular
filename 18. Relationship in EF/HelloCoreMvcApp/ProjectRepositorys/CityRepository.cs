@@ -16,7 +16,7 @@ namespace ProjectRepositorys
             return _coreDb.Cities.ToList();
         }
 
-        public List<Country> countries()
+        public List<Country> Countries()
         {
             return _coreDb.Countries.ToList();
         }
@@ -24,6 +24,23 @@ namespace ProjectRepositorys
         public bool Add(City aCity)
         {
             _coreDb.Cities.Add(aCity);
+            return _coreDb.SaveChanges() > 0;
+        }       
+
+        public City FindCity(int? Id)
+        {
+            return _coreDb.Cities.Find(Id);
+        }
+
+        public bool Edit(City aCity)
+        {
+            _coreDb.Entry(aCity).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            return _coreDb.SaveChanges() > 0;
+        }
+
+        public bool Delete(City aCity)
+        {
+            _coreDb.Cities.Remove(aCity);
             return _coreDb.SaveChanges() > 0;
         }
     }

@@ -10,7 +10,12 @@ namespace HelloCoreMvcApp.Controllers
 {
     public class ProductController : Controller
     {
-        private ProductRepository _productRepository = new ProductRepository();
+        private readonly ProductRepository _productRepository;
+
+        public ProductController()
+        {
+            _productRepository = new ProductRepository();
+        }
 
         [HttpGet]
         public IActionResult Index()
@@ -55,6 +60,48 @@ namespace HelloCoreMvcApp.Controllers
 
             ViewBag.CategoryList = _productRepository.GetAllCategory();
             return View(aProduct);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(Product aProduct)
+        {
+            if(ModelState.IsValid)
+            {
+                bool isEdit = _productRepository.Edit(aProduct);
+
+                if (isEdit)
+                    return RedirectToAction("Index", "Product");
+                else
+                    return ViewBag.ErrorMessage = "Product update failed!";
+            }
+
+            ViewBag.CategoryList = _productRepository.GetAllCategory();
+            return View(aProduct);
+        }
+
+        [HttpGet]
+        public IActionResult Delete(int? Id)
+        {
+            if (Id == null)
+                NotFound();
+
+            Product aProduct = _productRepository.FindProduct(Id);
+
+            if (aProduct == null)
+                NotFound();
+
+            return View(aProduct);
+        }
+
+        [HttpPost]
+        public IActionResult Delete(Product aProduct)
+        {
+            bool isDelete = _productRepository.Delete(aProduct);
+
+            if (isDelete)
+                return RedirectToAction("Index", "Product");
+            else
+                return ViewBag.MessageError = "Product delete failed!";
         }
     }
 }

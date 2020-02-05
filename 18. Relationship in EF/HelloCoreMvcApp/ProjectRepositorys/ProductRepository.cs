@@ -31,5 +31,17 @@ namespace ProjectRepositorys
             _coreDb.Products.Add(aProduct);
             return _coreDb.SaveChanges() > 0;
         }
+
+        public bool Edit(Product aProduct)
+        {
+            _coreDb.Entry(aProduct).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            return _coreDb.SaveChanges() > 0;
+        }
+
+        public bool Delete(Product aProduct)
+        {
+            _coreDb.Products.Remove(aProduct);
+            return _coreDb.SaveChanges() > 0;
+        }
     }
 }
