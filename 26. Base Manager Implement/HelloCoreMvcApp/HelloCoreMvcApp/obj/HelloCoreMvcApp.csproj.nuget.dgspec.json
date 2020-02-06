@@ -4,6 +4,67 @@
     "F:\\C# Project\\ASP.NET Core and Angular\\26. Base Manager Implement\\HelloCoreMvcApp\\HelloCoreMvcApp\\HelloCoreMvcApp.csproj": {}
   },
   "projects": {
+    "F:\\C# Project\\ASP.NET Core and Angular\\26. Base Manager Implement\\HelloCoreMvcApp\\Business_Logic_Layer\\Business_Logic_Layer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\C# Project\\ASP.NET Core and Angular\\26. Base Manager Implement\\HelloCoreMvcApp\\Business_Logic_Layer\\Business_Logic_Layer.csproj",
+        "projectName": "Business_Logic_Layer",
+        "projectPath": "F:\\C# Project\\ASP.NET Core and Angular\\26. Base Manager Implement\\HelloCoreMvcApp\\Business_Logic_Layer\\Business_Logic_Layer.csproj",
+        "packagesPath": "C:\\Users\\Sunil\\.nuget\\packages\\",
+        "outputPath": "F:\\C# Project\\ASP.NET Core and Angular\\26. Base Manager Implement\\HelloCoreMvcApp\\Business_Logic_Layer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sunil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "F:\\C# Project\\ASP.NET Core and Angular\\26. Base Manager Implement\\HelloCoreMvcApp\\ProjectRepositorys\\ProjectRepositorys.csproj": {
+                "projectPath": "F:\\C# Project\\ASP.NET Core and Angular\\26. Base Manager Implement\\HelloCoreMvcApp\\ProjectRepositorys\\ProjectRepositorys.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "F:\\C# Project\\ASP.NET Core and Angular\\26. Base Manager Implement\\HelloCoreMvcApp\\Db_Context\\Db_Context.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -119,11 +180,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "F:\\C# Project\\ASP.NET Core and Angular\\26. Base Manager Implement\\HelloCoreMvcApp\\Business_Logic_Layer\\Business_Logic_Layer.csproj": {
+                "projectPath": "F:\\C# Project\\ASP.NET Core and Angular\\26. Base Manager Implement\\HelloCoreMvcApp\\Business_Logic_Layer\\Business_Logic_Layer.csproj"
+              },
               "F:\\C# Project\\ASP.NET Core and Angular\\26. Base Manager Implement\\HelloCoreMvcApp\\Models\\Models.csproj": {
                 "projectPath": "F:\\C# Project\\ASP.NET Core and Angular\\26. Base Manager Implement\\HelloCoreMvcApp\\Models\\Models.csproj"
-              },
-              "F:\\C# Project\\ASP.NET Core and Angular\\26. Base Manager Implement\\HelloCoreMvcApp\\ProjectRepositorys\\ProjectRepositorys.csproj": {
-                "projectPath": "F:\\C# Project\\ASP.NET Core and Angular\\26. Base Manager Implement\\HelloCoreMvcApp\\ProjectRepositorys\\ProjectRepositorys.csproj"
               }
             }
           }

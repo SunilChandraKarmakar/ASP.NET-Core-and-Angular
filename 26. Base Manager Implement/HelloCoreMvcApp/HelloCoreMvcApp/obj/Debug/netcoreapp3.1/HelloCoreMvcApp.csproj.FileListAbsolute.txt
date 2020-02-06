@@ -2428,3 +2428,5 @@ F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcAp
 F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\HelloCoreMvcApp\obj\Debug\netcoreapp3.1\HelloCoreMvcApp.csproj.CopyComplete
 F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\HelloCoreMvcApp\obj\Debug\netcoreapp3.1\HelloCoreMvcApp.dll
 F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\HelloCoreMvcApp\obj\Debug\netcoreapp3.1\HelloCoreMvcApp.pdb
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\HelloCoreMvcApp\bin\Debug\netcoreapp3.1\Business_Logic_Layer.dll
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\HelloCoreMvcApp\bin\Debug\netcoreapp3.1\Business_Logic_Layer.pdb

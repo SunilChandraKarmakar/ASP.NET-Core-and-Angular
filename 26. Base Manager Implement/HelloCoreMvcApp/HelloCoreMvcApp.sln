@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Db_Context", "Db_Context\Db_Context.csproj", "{8B19F284-A7C3-4135-ACE5-529A1116A3A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectRepositorys", "ProjectRepositorys\ProjectRepositorys.csproj", "{6DD0DDBC-53CC-483B-8C91-A06C0A25327F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectRepositorys", "ProjectRepositorys\ProjectRepositorys.csproj", "{6DD0DDBC-53CC-483B-8C91-A06C0A25327F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business_Logic_Layer", "Business_Logic_Layer\Business_Logic_Layer.csproj", "{D46E9916-B42D-42EC-B7DC-4374FE03D835}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{6DD0DDBC-53CC-483B-8C91-A06C0A25327F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DD0DDBC-53CC-483B-8C91-A06C0A25327F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DD0DDBC-53CC-483B-8C91-A06C0A25327F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D46E9916-B42D-42EC-B7DC-4374FE03D835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D46E9916-B42D-42EC-B7DC-4374FE03D835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D46E9916-B42D-42EC-B7DC-4374FE03D835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D46E9916-B42D-42EC-B7DC-4374FE03D835}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

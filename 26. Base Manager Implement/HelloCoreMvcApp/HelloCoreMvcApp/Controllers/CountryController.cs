@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Business_Logic_Layer;
 using Microsoft.AspNetCore.Mvc;
 using Models;
 using ProjectRepositorys;
@@ -10,17 +11,17 @@ namespace HelloCoreMvcApp.Controllers
 {
     public class CountryController : Controller
     {
-        private CountryRepository _countryRepository;
-
+        private readonly CountryManager _countryManager;
+        
         public CountryController()
         {
-            _countryRepository = new CountryRepository();
+            _countryManager = new CountryManager();
         }
 
         [HttpGet]
         public IActionResult Index()
         {
-            return View(_countryRepository.GetAll());
+            return View(_countryManager.GetAll());
         }
 
         [HttpGet]
@@ -34,7 +35,7 @@ namespace HelloCoreMvcApp.Controllers
         {
             if(ModelState.IsValid)
             {
-                bool isSave = _countryRepository.Add(aCountry);
+                bool isSave = _countryManager.Add(aCountry);
 
                 if (isSave)
                     return RedirectToAction("Index", "Country");
@@ -51,7 +52,7 @@ namespace HelloCoreMvcApp.Controllers
             if (Id == null)
                 return NotFound();
 
-            Country aCountry = _countryRepository.GetById(Id);
+            Country aCountry = _countryManager.GetById(Id);
 
             if (aCountry == null)
                 return NotFound();
@@ -64,7 +65,7 @@ namespace HelloCoreMvcApp.Controllers
         {
             if(ModelState.IsValid)
             {
-                bool isEdit = _countryRepository.Update(aCountry);
+                bool isEdit = _countryManager.Update(aCountry);
 
                 if (isEdit)
                     return RedirectToAction("Index", "Country");
@@ -81,7 +82,7 @@ namespace HelloCoreMvcApp.Controllers
             if (Id == null)
                 return NotFound();
 
-            Country aCountry = _countryRepository.GetById(Id);
+            Country aCountry = _countryManager.GetById(Id);
 
             if (aCountry == null)
                 return NotFound();
@@ -92,7 +93,7 @@ namespace HelloCoreMvcApp.Controllers
         [HttpPost]
         public IActionResult Delete(Country aCountry)
         {
-            bool isDelete = _countryRepository.Remove(aCountry);
+            bool isDelete = _countryManager.Remove(aCountry);
 
             if (isDelete)
                 return RedirectToAction("Index", "Country");

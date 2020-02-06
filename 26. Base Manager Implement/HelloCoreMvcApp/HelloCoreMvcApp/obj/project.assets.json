@@ -2608,6 +2608,19 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Business_Logic_Layer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "ProjectRepositorys": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Business_Logic_Layer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business_Logic_Layer.dll": {}
+        }
+      },
       "Db_Context/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -8446,6 +8459,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Business_Logic_Layer/1.0.0": {
+      "type": "project",
+      "path": "../Business_Logic_Layer/Business_Logic_Layer.csproj",
+      "msbuildProject": "../Business_Logic_Layer/Business_Logic_Layer.csproj"
+    },
     "Db_Context/1.0.0": {
       "type": "project",
       "path": "../Db_Context/Db_Context.csproj",
@@ -8464,14 +8482,14 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Business_Logic_Layer >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.1",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.1",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.1",
       "Microsoft.Extensions.Logging.Debug >= 3.1.1",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.1",
-      "Models >= 1.0.0",
-      "ProjectRepositorys >= 1.0.0"
+      "Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8507,11 +8525,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+            "F:\\C# Project\\ASP.NET Core and Angular\\26. Base Manager Implement\\HelloCoreMvcApp\\Business_Logic_Layer\\Business_Logic_Layer.csproj": {
+              "projectPath": "F:\\C# Project\\ASP.NET Core and Angular\\26. Base Manager Implement\\HelloCoreMvcApp\\Business_Logic_Layer\\Business_Logic_Layer.csproj"
+            },
             "F:\\C# Project\\ASP.NET Core and Angular\\26. Base Manager Implement\\HelloCoreMvcApp\\Models\\Models.csproj": {
               "projectPath": "F:\\C# Project\\ASP.NET Core and Angular\\26. Base Manager Implement\\HelloCoreMvcApp\\Models\\Models.csproj"
-            },
-            "F:\\C# Project\\ASP.NET Core and Angular\\26. Base Manager Implement\\HelloCoreMvcApp\\ProjectRepositorys\\ProjectRepositorys.csproj": {
-              "projectPath": "F:\\C# Project\\ASP.NET Core and Angular\\26. Base Manager Implement\\HelloCoreMvcApp\\ProjectRepositorys\\ProjectRepositorys.csproj"
             }
           }
         }
