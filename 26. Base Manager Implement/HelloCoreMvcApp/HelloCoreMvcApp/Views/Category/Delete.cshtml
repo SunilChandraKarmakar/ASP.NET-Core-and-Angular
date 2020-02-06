@@ -1,0 +1,33 @@
+﻿@using Models
+@model Category
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<h1>Delete Category</h1>
+<hr />
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Code)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Code)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+    </dl>
+
+    <form method="post" asp-action="Delete">
+        <input type="submit" value="Delete" class="btn btn-danger"/>
+        <a asp-action="Index" asp-controller="Category" class="btn btn-info">Back To List</a>
+        <span class="text-danger">@ViewBag.ErrorMessage</span>
+    </form>
+</div>
+
