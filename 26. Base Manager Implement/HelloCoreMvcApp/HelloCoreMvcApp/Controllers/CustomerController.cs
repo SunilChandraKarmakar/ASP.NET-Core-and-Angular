@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Business_Logic_Layer;
 using Db_Context.DatabaseContext;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -12,17 +13,17 @@ namespace HelloCoreMvcApp.Controllers
 {
     public class CustomerController : Controller
     {
-        private readonly CustomerRepository _customerRepository;
+        private readonly CustomerManager _customerManager;
 
         public CustomerController()
         {
-            _customerRepository = new CustomerRepository();
+            _customerManager = new CustomerManager();
         }
 
         [HttpGet]
         public IActionResult Index()
         {
-            return View(_customerRepository.GetAll());
+            return View(_customerManager.GetAll());
         }
 
         [HttpGet]
@@ -37,7 +38,7 @@ namespace HelloCoreMvcApp.Controllers
         {
             if (ModelState.IsValid)
             {
-                bool isSaved = _customerRepository.Add(aCustomer);
+                bool isSaved = _customerManager.Add(aCustomer);
 
                 if(isSaved)
                     return RedirectToAction("Index", "Customer");
@@ -54,7 +55,7 @@ namespace HelloCoreMvcApp.Controllers
         [HttpGet]
         public IActionResult Edit(int Id)
         {               
-            Customer aCustomer = _customerRepository.GetById(Id);
+            Customer aCustomer = _customerManager.GetById(Id);
 
             if (aCustomer == null)
                 return NotFound();
@@ -68,7 +69,7 @@ namespace HelloCoreMvcApp.Controllers
         {
             if(ModelState.IsValid)
             {
-                bool isSaved = _customerRepository.Update(aCustomer);
+                bool isSaved = _customerManager.Update(aCustomer);
 
                 if (isSaved)
                     return RedirectToAction("Index", "Customer");
@@ -83,7 +84,7 @@ namespace HelloCoreMvcApp.Controllers
         [HttpGet]
         public IActionResult Delete(int? Id)
         {
-            Customer aCustomer = _customerRepository.GetById(Id);
+            Customer aCustomer = _customerManager.GetById(Id);
 
             if (aCustomer == null)
                 return NotFound();
@@ -94,7 +95,7 @@ namespace HelloCoreMvcApp.Controllers
         [HttpPost]
         public IActionResult Delete(Customer aCustomer)
         {
-            bool isDelete = _customerRepository.Remove(aCustomer);
+            bool isDelete = _customerManager.Remove(aCustomer);
 
             if (isDelete)
                 return RedirectToAction("Index", "Customer");

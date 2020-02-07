@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Business_Logic_Layer;
 using Microsoft.AspNetCore.Mvc;
 using Models;
 using ProjectRepositorys;
@@ -10,23 +11,23 @@ namespace HelloCoreMvcApp.Controllers
 {
     public class ProductController : Controller
     {
-        private readonly ProductRepository _productRepository;
+        private readonly ProductManager _productManager;
 
         public ProductController()
         {
-            _productRepository = new ProductRepository();
+            _productManager = new ProductManager();
         }
 
         [HttpGet]
         public IActionResult Index()
         {
-            return View(_productRepository.GetAll());
+            return View(_productManager.GetAll());
         }
 
         [HttpGet]
         public IActionResult Create()
         {
-            ViewBag.CategoryList = _productRepository.CategoryList();
+            ViewBag.CategoryList = _productManager.CategoryList();
             return View();
         }
 
@@ -35,7 +36,7 @@ namespace HelloCoreMvcApp.Controllers
         {
             if(ModelState.IsValid)
             {
-                bool isSaved = _productRepository.Add(aProduct);
+                bool isSaved = _productManager.Add(aProduct);
 
                 if (isSaved)
                     return RedirectToAction("Index", "Product");
@@ -43,7 +44,7 @@ namespace HelloCoreMvcApp.Controllers
                     return ViewBag.ErrorMessage = "Product have not saved!";
             }
 
-            ViewBag.CategoryList = _productRepository.CategoryList();
+            ViewBag.CategoryList = _productManager.CategoryList();
             return View(aProduct);
         }
 
@@ -53,12 +54,12 @@ namespace HelloCoreMvcApp.Controllers
             if (Id == null)
                 NotFound();
 
-            Product aProduct = _productRepository.GetById(Id);
+            Product aProduct = _productManager.GetById(Id);
 
             if (aProduct == null)
                 NotFound();
 
-            ViewBag.CategoryList = _productRepository.CategoryList();
+            ViewBag.CategoryList = _productManager.CategoryList();
             return View(aProduct);
         }
 
@@ -67,7 +68,7 @@ namespace HelloCoreMvcApp.Controllers
         {
             if(ModelState.IsValid)
             {
-                bool isEdit = _productRepository.Update(aProduct);
+                bool isEdit = _productManager.Update(aProduct);
 
                 if (isEdit)
                     return RedirectToAction("Index", "Product");
@@ -75,7 +76,7 @@ namespace HelloCoreMvcApp.Controllers
                     return ViewBag.ErrorMessage = "Product update failed!";
             }
 
-            ViewBag.CategoryList = _productRepository.CategoryList();
+            ViewBag.CategoryList = _productManager.CategoryList();
             return View(aProduct);
         }
 
@@ -85,7 +86,7 @@ namespace HelloCoreMvcApp.Controllers
             if (Id == null)
                 NotFound();
 
-            Product aProduct = _productRepository.GetById(Id);
+            Product aProduct = _productManager.GetById(Id);
 
             if (aProduct == null)
                 NotFound();
@@ -96,7 +97,7 @@ namespace HelloCoreMvcApp.Controllers
         [HttpPost]
         public IActionResult Delete(Product aProduct)
         {
-            bool isDelete = _productRepository.Remove(aProduct);
+            bool isDelete = _productManager.Remove(aProduct);
 
             if (isDelete)
                 return RedirectToAction("Index", "Product");
