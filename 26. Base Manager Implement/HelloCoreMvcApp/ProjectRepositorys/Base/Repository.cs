@@ -7,7 +7,7 @@ using System.Text;
 
 namespace ProjectRepositorys.Base
 {
-    public class Repository<T> where T : class
+    public abstract class Repository<T> where T : class
     {
         private readonly CoreDb _coreDb;
 

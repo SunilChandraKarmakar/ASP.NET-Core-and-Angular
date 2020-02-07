@@ -5,13 +5,13 @@ using System.Text;
 
 namespace Business_Logic_Layer.BLL
 {
-    public class Manager<T> where T : class
+    public abstract class Manager<T> where T : class
     {
         private readonly Repository<T> _repository;
 
-        public Manager()
+        public Manager(Repository<T> repository)
         {
-            _repository = new Repository<T>();
+            _repository = repository;
         }
 
         public virtual T GetById(int? id)

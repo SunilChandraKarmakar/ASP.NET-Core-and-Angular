@@ -11,7 +11,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Db_Context", "Db_Context\Db
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectRepositorys", "ProjectRepositorys\ProjectRepositorys.csproj", "{6DD0DDBC-53CC-483B-8C91-A06C0A25327F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business_Logic_Layer", "Business_Logic_Layer\Business_Logic_Layer.csproj", "{D46E9916-B42D-42EC-B7DC-4374FE03D835}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business_Logic_Layer", "Business_Logic_Layer\Business_Logic_Layer.csproj", "{D46E9916-B42D-42EC-B7DC-4374FE03D835}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6DCDB592-8697-41FC-B341-FA248F74CBF6}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Business_Logic_Layer;
 using Microsoft.AspNetCore.Mvc;
 using Models;
 using ProjectRepositorys;
@@ -10,23 +11,23 @@ namespace HelloCoreMvcApp.Controllers
 {
     public class CityController : Controller
     {
-        private readonly CityRepository _cityRepository;
+        private readonly CityManager _cityManager;
 
         public CityController()
         {
-            _cityRepository = new CityRepository();
+            _cityManager = new CityManager();
         }
 
         [HttpGet]
         public IActionResult Index()
         {
-            return View(_cityRepository.GetAll());
+            return View(_cityManager.GetAll());
         }
 
         [HttpGet]
         public IActionResult Create()
         {
-            ViewBag.CountryList = _cityRepository.CountryList();
+            ViewBag.CountryList = _cityManager.CountryList();
             return View();
         }
 
@@ -35,7 +36,7 @@ namespace HelloCoreMvcApp.Controllers
         {
             if(ModelState.IsValid)
             {
-                bool isSave = _cityRepository.Add(aCity);
+                bool isSave = _cityManager.Add(aCity);
 
                 if (isSave)
                     return RedirectToAction("Index", "City");
@@ -43,7 +44,7 @@ namespace HelloCoreMvcApp.Controllers
                     return ViewBag.ErrorMessage = "City failed to save!";
             }
 
-            ViewBag.CountryList = _cityRepository.CountryList();
+            ViewBag.CountryList = _cityManager.CountryList();
             return View(aCity);
         }
 
@@ -53,12 +54,12 @@ namespace HelloCoreMvcApp.Controllers
             if (Id == null)
                 return NotFound();
 
-            City aCity = _cityRepository.GetById(Id);
+            City aCity = _cityManager.GetById(Id);
 
             if (aCity == null)
                 return NotFound();
 
-            ViewBag.CountryList = _cityRepository.CountryList();
+            ViewBag.CountryList = _cityManager.CountryList();
             return View(aCity);
         }
 
@@ -67,7 +68,7 @@ namespace HelloCoreMvcApp.Controllers
         {
             if(ModelState.IsValid)
             {
-                bool isUpdate = _cityRepository.Update(aCity);
+                bool isUpdate = _cityManager.Update(aCity);
 
                 if (isUpdate)
                     return RedirectToAction("Index", "City");
@@ -75,7 +76,7 @@ namespace HelloCoreMvcApp.Controllers
                     return ViewBag.ErrorMessage = "City update failed!";
             }
 
-            ViewBag.CountryList = _cityRepository.CountryList();
+            ViewBag.CountryList = _cityManager.CountryList();
             return View(aCity);
         }
 
@@ -85,7 +86,7 @@ namespace HelloCoreMvcApp.Controllers
             if (Id == null)
                 return NotFound();
 
-            City aCity = _cityRepository.GetById(Id);
+            City aCity = _cityManager.GetById(Id);
 
             if (aCity == null)
                 return NotFound();
@@ -96,7 +97,7 @@ namespace HelloCoreMvcApp.Controllers
         [HttpPost]
         public IActionResult Delete(City aCity)
         {
-            bool isDelete = _cityRepository.Remove(aCity);
+            bool isDelete = _cityManager.Remove(aCity);
 
             if (isDelete)
                 return RedirectToAction("Index", "City");

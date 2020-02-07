@@ -34,10 +34,10 @@ namespace ProjectRepositorys
 
             return cityList;
         }
-
+        
         public List<Country> CountryList()
         {
             return _coreDb.Countries.ToList();
-        }      
+        }
     }
 }
