@@ -1,0 +1,143 @@
+F:\C# Project\ASP.NET Core and Angular\14. Insert Operation  EF\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.csprojAssemblyReference.cache
+F:\C# Project\ASP.NET Core and Angular\14. Insert Operation  EF\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.AssemblyInfoInputs.cache
+F:\C# Project\ASP.NET Core and Angular\14. Insert Operation  EF\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.AssemblyInfo.cs
+F:\C# Project\ASP.NET Core and Angular\14. Insert Operation  EF\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.deps.json
+F:\C# Project\ASP.NET Core and Angular\14. Insert Operation  EF\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.runtimeconfig.json
+F:\C# Project\ASP.NET Core and Angular\14. Insert Operation  EF\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.runtimeconfig.dev.json
+F:\C# Project\ASP.NET Core and Angular\14. Insert Operation  EF\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\14. Insert Operation  EF\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.pdb
+F:\C# Project\ASP.NET Core and Angular\14. Insert Operation  EF\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\14. Insert Operation  EF\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.pdb
+F:\C# Project\ASP.NET Core and Angular\14. Insert Operation  EF\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Models.dll
+F:\C# Project\ASP.NET Core and Angular\14. Insert Operation  EF\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Models.pdb
+F:\C# Project\ASP.NET Core and Angular\14. Insert Operation  EF\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.csproj.CopyComplete
+F:\C# Project\ASP.NET Core and Angular\15. Migration Operations\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.deps.json
+F:\C# Project\ASP.NET Core and Angular\15. Migration Operations\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.runtimeconfig.json
+F:\C# Project\ASP.NET Core and Angular\15. Migration Operations\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.runtimeconfig.dev.json
+F:\C# Project\ASP.NET Core and Angular\15. Migration Operations\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\15. Migration Operations\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.pdb
+F:\C# Project\ASP.NET Core and Angular\15. Migration Operations\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Models.dll
+F:\C# Project\ASP.NET Core and Angular\15. Migration Operations\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Models.pdb
+F:\C# Project\ASP.NET Core and Angular\15. Migration Operations\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.csprojAssemblyReference.cache
+F:\C# Project\ASP.NET Core and Angular\15. Migration Operations\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.AssemblyInfoInputs.cache
+F:\C# Project\ASP.NET Core and Angular\15. Migration Operations\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.AssemblyInfo.cs
+F:\C# Project\ASP.NET Core and Angular\15. Migration Operations\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.csproj.CopyComplete
+F:\C# Project\ASP.NET Core and Angular\15. Migration Operations\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\15. Migration Operations\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.pdb
+F:\C# Project\ASP.NET Core and Angular\16. CRUD Operation\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.deps.json
+F:\C# Project\ASP.NET Core and Angular\16. CRUD Operation\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.runtimeconfig.json
+F:\C# Project\ASP.NET Core and Angular\16. CRUD Operation\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.runtimeconfig.dev.json
+F:\C# Project\ASP.NET Core and Angular\16. CRUD Operation\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\16. CRUD Operation\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.pdb
+F:\C# Project\ASP.NET Core and Angular\16. CRUD Operation\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Models.dll
+F:\C# Project\ASP.NET Core and Angular\16. CRUD Operation\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Models.pdb
+F:\C# Project\ASP.NET Core and Angular\16. CRUD Operation\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.csprojAssemblyReference.cache
+F:\C# Project\ASP.NET Core and Angular\16. CRUD Operation\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.AssemblyInfoInputs.cache
+F:\C# Project\ASP.NET Core and Angular\16. CRUD Operation\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.AssemblyInfo.cs
+F:\C# Project\ASP.NET Core and Angular\16. CRUD Operation\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.csproj.CopyComplete
+F:\C# Project\ASP.NET Core and Angular\16. CRUD Operation\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\16. CRUD Operation\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.pdb
+F:\C# Project\ASP.NET Core and Angular\17. ObjectModeling RelationshipEstablish\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.deps.json
+F:\C# Project\ASP.NET Core and Angular\17. ObjectModeling RelationshipEstablish\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.runtimeconfig.json
+F:\C# Project\ASP.NET Core and Angular\17. ObjectModeling RelationshipEstablish\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.runtimeconfig.dev.json
+F:\C# Project\ASP.NET Core and Angular\17. ObjectModeling RelationshipEstablish\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\17. ObjectModeling RelationshipEstablish\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.pdb
+F:\C# Project\ASP.NET Core and Angular\17. ObjectModeling RelationshipEstablish\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Models.dll
+F:\C# Project\ASP.NET Core and Angular\17. ObjectModeling RelationshipEstablish\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Models.pdb
+F:\C# Project\ASP.NET Core and Angular\17. ObjectModeling RelationshipEstablish\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.csprojAssemblyReference.cache
+F:\C# Project\ASP.NET Core and Angular\17. ObjectModeling RelationshipEstablish\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.AssemblyInfoInputs.cache
+F:\C# Project\ASP.NET Core and Angular\17. ObjectModeling RelationshipEstablish\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.AssemblyInfo.cs
+F:\C# Project\ASP.NET Core and Angular\17. ObjectModeling RelationshipEstablish\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.csproj.CopyComplete
+F:\C# Project\ASP.NET Core and Angular\17. ObjectModeling RelationshipEstablish\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\17. ObjectModeling RelationshipEstablish\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.pdb
+F:\C# Project\ASP.NET Core and Angular\18. Relationship in EF\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.deps.json
+F:\C# Project\ASP.NET Core and Angular\18. Relationship in EF\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.runtimeconfig.json
+F:\C# Project\ASP.NET Core and Angular\18. Relationship in EF\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.runtimeconfig.dev.json
+F:\C# Project\ASP.NET Core and Angular\18. Relationship in EF\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\18. Relationship in EF\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.pdb
+F:\C# Project\ASP.NET Core and Angular\18. Relationship in EF\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Models.dll
+F:\C# Project\ASP.NET Core and Angular\18. Relationship in EF\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Models.pdb
+F:\C# Project\ASP.NET Core and Angular\18. Relationship in EF\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.csprojAssemblyReference.cache
+F:\C# Project\ASP.NET Core and Angular\18. Relationship in EF\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.AssemblyInfoInputs.cache
+F:\C# Project\ASP.NET Core and Angular\18. Relationship in EF\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.AssemblyInfo.cs
+F:\C# Project\ASP.NET Core and Angular\18. Relationship in EF\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.csproj.CopyComplete
+F:\C# Project\ASP.NET Core and Angular\18. Relationship in EF\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\18. Relationship in EF\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.pdb
+F:\C# Project\ASP.NET Core and Angular\19. Eager Loading\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.deps.json
+F:\C# Project\ASP.NET Core and Angular\19. Eager Loading\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.runtimeconfig.json
+F:\C# Project\ASP.NET Core and Angular\19. Eager Loading\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.runtimeconfig.dev.json
+F:\C# Project\ASP.NET Core and Angular\19. Eager Loading\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\19. Eager Loading\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.pdb
+F:\C# Project\ASP.NET Core and Angular\19. Eager Loading\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Models.dll
+F:\C# Project\ASP.NET Core and Angular\19. Eager Loading\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Models.pdb
+F:\C# Project\ASP.NET Core and Angular\19. Eager Loading\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.csprojAssemblyReference.cache
+F:\C# Project\ASP.NET Core and Angular\19. Eager Loading\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.AssemblyInfoInputs.cache
+F:\C# Project\ASP.NET Core and Angular\19. Eager Loading\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.AssemblyInfo.cs
+F:\C# Project\ASP.NET Core and Angular\19. Eager Loading\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.csproj.CopyComplete
+F:\C# Project\ASP.NET Core and Angular\19. Eager Loading\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\19. Eager Loading\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.pdb
+F:\C# Project\ASP.NET Core and Angular\20. Explicit Loading\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.deps.json
+F:\C# Project\ASP.NET Core and Angular\20. Explicit Loading\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.runtimeconfig.json
+F:\C# Project\ASP.NET Core and Angular\20. Explicit Loading\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.runtimeconfig.dev.json
+F:\C# Project\ASP.NET Core and Angular\20. Explicit Loading\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\20. Explicit Loading\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.pdb
+F:\C# Project\ASP.NET Core and Angular\20. Explicit Loading\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Models.dll
+F:\C# Project\ASP.NET Core and Angular\20. Explicit Loading\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Models.pdb
+F:\C# Project\ASP.NET Core and Angular\20. Explicit Loading\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.csprojAssemblyReference.cache
+F:\C# Project\ASP.NET Core and Angular\20. Explicit Loading\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.AssemblyInfoInputs.cache
+F:\C# Project\ASP.NET Core and Angular\20. Explicit Loading\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.AssemblyInfo.cs
+F:\C# Project\ASP.NET Core and Angular\20. Explicit Loading\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.csproj.CopyComplete
+F:\C# Project\ASP.NET Core and Angular\20. Explicit Loading\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\20. Explicit Loading\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.pdb
+F:\C# Project\ASP.NET Core and Angular\25. Base Repository\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.deps.json
+F:\C# Project\ASP.NET Core and Angular\25. Base Repository\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.runtimeconfig.json
+F:\C# Project\ASP.NET Core and Angular\25. Base Repository\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.runtimeconfig.dev.json
+F:\C# Project\ASP.NET Core and Angular\25. Base Repository\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\25. Base Repository\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.pdb
+F:\C# Project\ASP.NET Core and Angular\25. Base Repository\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Models.dll
+F:\C# Project\ASP.NET Core and Angular\25. Base Repository\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Models.pdb
+F:\C# Project\ASP.NET Core and Angular\25. Base Repository\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.csprojAssemblyReference.cache
+F:\C# Project\ASP.NET Core and Angular\25. Base Repository\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.AssemblyInfoInputs.cache
+F:\C# Project\ASP.NET Core and Angular\25. Base Repository\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.AssemblyInfo.cs
+F:\C# Project\ASP.NET Core and Angular\25. Base Repository\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.csproj.CopyComplete
+F:\C# Project\ASP.NET Core and Angular\25. Base Repository\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\25. Base Repository\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.pdb
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.deps.json
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.runtimeconfig.json
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.runtimeconfig.dev.json
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.pdb
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Models.dll
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Models.pdb
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.csprojAssemblyReference.cache
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.AssemblyInfoInputs.cache
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.AssemblyInfo.cs
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.csproj.CopyComplete
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.pdb
+F:\C# Project\ASP.NET Core and Angular\27. Dependency Inversion Principle\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.deps.json
+F:\C# Project\ASP.NET Core and Angular\27. Dependency Inversion Principle\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.runtimeconfig.json
+F:\C# Project\ASP.NET Core and Angular\27. Dependency Inversion Principle\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.runtimeconfig.dev.json
+F:\C# Project\ASP.NET Core and Angular\27. Dependency Inversion Principle\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\27. Dependency Inversion Principle\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.pdb
+F:\C# Project\ASP.NET Core and Angular\27. Dependency Inversion Principle\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Models.dll
+F:\C# Project\ASP.NET Core and Angular\27. Dependency Inversion Principle\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Models.pdb
+F:\C# Project\ASP.NET Core and Angular\27. Dependency Inversion Principle\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.csprojAssemblyReference.cache
+F:\C# Project\ASP.NET Core and Angular\27. Dependency Inversion Principle\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.AssemblyInfoInputs.cache
+F:\C# Project\ASP.NET Core and Angular\27. Dependency Inversion Principle\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.AssemblyInfo.cs
+F:\C# Project\ASP.NET Core and Angular\27. Dependency Inversion Principle\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.csproj.CopyComplete
+F:\C# Project\ASP.NET Core and Angular\27. Dependency Inversion Principle\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\27. Dependency Inversion Principle\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.pdb
+F:\C# Project\ASP.NET Core and Angular\28. Dependency Injection Inversion of Control\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.deps.json
+F:\C# Project\ASP.NET Core and Angular\28. Dependency Injection Inversion of Control\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.runtimeconfig.json
+F:\C# Project\ASP.NET Core and Angular\28. Dependency Injection Inversion of Control\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.runtimeconfig.dev.json
+F:\C# Project\ASP.NET Core and Angular\28. Dependency Injection Inversion of Control\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\28. Dependency Injection Inversion of Control\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Db_Context.pdb
+F:\C# Project\ASP.NET Core and Angular\28. Dependency Injection Inversion of Control\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Models.dll
+F:\C# Project\ASP.NET Core and Angular\28. Dependency Injection Inversion of Control\HelloCoreMvcApp\Db_Context\bin\Debug\netcoreapp3.1\Models.pdb
+F:\C# Project\ASP.NET Core and Angular\28. Dependency Injection Inversion of Control\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.csprojAssemblyReference.cache
+F:\C# Project\ASP.NET Core and Angular\28. Dependency Injection Inversion of Control\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.AssemblyInfoInputs.cache
+F:\C# Project\ASP.NET Core and Angular\28. Dependency Injection Inversion of Control\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.AssemblyInfo.cs
+F:\C# Project\ASP.NET Core and Angular\28. Dependency Injection Inversion of Control\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.csproj.CopyComplete
+F:\C# Project\ASP.NET Core and Angular\28. Dependency Injection Inversion of Control\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\28. Dependency Injection Inversion of Control\HelloCoreMvcApp\Db_Context\obj\Debug\netcoreapp3.1\Db_Context.pdb
