@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Business_Logic_Layer;
+using Business_Logic_Layer.Contracts;
 using Db_Context.DatabaseContext;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -13,17 +14,17 @@ namespace HelloCoreMvcApp.Controllers
 {
     public class CustomerController : Controller
     {
-        private readonly CustomerManager _customerManager;
+        private readonly ICoustomerManager _iCoustomerManager;
 
-        public CustomerController()
+        public CustomerController(ICoustomerManager iCoustomerManager)
         {
-            _customerManager = new CustomerManager();
+            _iCoustomerManager = iCoustomerManager;
         }
 
         [HttpGet]
         public IActionResult Index()
         {
-            return View(_customerManager.GetAll());
+            return View(_iCoustomerManager.GetAll());
         }
 
         [HttpGet]
@@ -38,7 +39,7 @@ namespace HelloCoreMvcApp.Controllers
         {
             if (ModelState.IsValid)
             {
-                bool isSaved = _customerManager.Add(aCustomer);
+                bool isSaved = _iCoustomerManager.Add(aCustomer);
 
                 if(isSaved)
                     return RedirectToAction("Index", "Customer");
@@ -55,7 +56,7 @@ namespace HelloCoreMvcApp.Controllers
         [HttpGet]
         public IActionResult Edit(int Id)
         {               
-            Customer aCustomer = _customerManager.GetById(Id);
+            Customer aCustomer = _iCoustomerManager.GetById(Id);
 
             if (aCustomer == null)
                 return NotFound();
@@ -69,7 +70,7 @@ namespace HelloCoreMvcApp.Controllers
         {
             if(ModelState.IsValid)
             {
-                bool isSaved = _customerManager.Update(aCustomer);
+                bool isSaved = _iCoustomerManager.Update(aCustomer);
 
                 if (isSaved)
                     return RedirectToAction("Index", "Customer");
@@ -84,7 +85,7 @@ namespace HelloCoreMvcApp.Controllers
         [HttpGet]
         public IActionResult Delete(int? Id)
         {
-            Customer aCustomer = _customerManager.GetById(Id);
+            Customer aCustomer = _iCoustomerManager.GetById(Id);
 
             if (aCustomer == null)
                 return NotFound();
@@ -95,7 +96,7 @@ namespace HelloCoreMvcApp.Controllers
         [HttpPost]
         public IActionResult Delete(Customer aCustomer)
         {
-            bool isDelete = _customerManager.Remove(aCustomer);
+            bool isDelete = _iCoustomerManager.Remove(aCustomer);
 
             if (isDelete)
                 return RedirectToAction("Index", "Customer");

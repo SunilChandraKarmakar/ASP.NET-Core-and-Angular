@@ -11,16 +11,11 @@ namespace Business_Logic_Layer
 {
     public class ProductManager : Manager<Product>, IProductManager
     {
-        private readonly ProductRepository _productRepository;
+        private readonly IProductRepository _iProductRepository;
 
         public ProductManager(IProductRepository iProductRepository) : base(iProductRepository)
         {
-            _productRepository = new ProductRepository();    
-        }
-
-        public ICollection<Category> CategoryList()
-        {
-            return _productRepository.CategoryList();
+            _iProductRepository = iProductRepository;
         }
 
         public ICollection<Product> GetByYear(int year)

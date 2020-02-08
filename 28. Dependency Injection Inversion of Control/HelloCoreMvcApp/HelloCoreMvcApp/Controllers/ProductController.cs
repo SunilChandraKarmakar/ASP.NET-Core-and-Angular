@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Business_Logic_Layer;
 using Business_Logic_Layer.Contracts;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Models;
 using ProjectRepositorys;
 
@@ -13,10 +14,12 @@ namespace HelloCoreMvcApp.Controllers
     public class ProductController : Controller
     {
         private readonly IProductManager _iProductManager;
+        private readonly ICategoryManager _iCategoryManager;
 
-        public ProductController(IProductManager iProductManager)
+        public ProductController(IProductManager iProductManager, ICategoryManager iCategoryManager)
         {
             _iProductManager = iProductManager;
+            _iCategoryManager = iCategoryManager;
         }
 
         [HttpGet]
@@ -25,10 +28,20 @@ namespace HelloCoreMvcApp.Controllers
             return View(_iProductManager.GetAll());
         }
 
+        private List<SelectListItem> CategoryList()
+        {
+            List<SelectListItem> categoryList = _iCategoryManager.GetAll()
+                                                .Select(c=>new SelectListItem() { 
+                                                Value = c.Id.ToString(),
+                                                Text = c.Name
+                                            }).ToList();
+            return categoryList;
+        }
+
         [HttpGet]
         public IActionResult Create()
         {
-            ViewBag.CategoryList = _iProductManager.CategoryList();
+            ViewBag.CategoryList = CategoryList();
             return View();
         }
 
@@ -45,7 +58,7 @@ namespace HelloCoreMvcApp.Controllers
                     return ViewBag.ErrorMessage = "Product have not saved!";
             }
 
-            ViewBag.CategoryList = _iProductManager.CategoryList();
+            ViewBag.CategoryList = CategoryList();
             return View(aProduct);
         }
 
@@ -60,7 +73,7 @@ namespace HelloCoreMvcApp.Controllers
             if (aProduct == null)
                 NotFound();
 
-            ViewBag.CategoryList = _iProductManager.CategoryList();
+            ViewBag.CategoryList = CategoryList();
             return View(aProduct);
         }
 
@@ -77,7 +90,7 @@ namespace HelloCoreMvcApp.Controllers
                     return ViewBag.ErrorMessage = "Product update failed!";
             }
 
-            ViewBag.CategoryList = _iProductManager.CategoryList();
+            ViewBag.CategoryList = CategoryList();
             return View(aProduct);
         }
 

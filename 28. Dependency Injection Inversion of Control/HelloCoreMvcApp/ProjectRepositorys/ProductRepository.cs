@@ -40,10 +40,5 @@ namespace ProjectRepositorys
 
             return productList;
         }
-
-        public List<Category> CategoryList()
-        {
-            return _coreDb.Categories.ToList();
-        }
     }
 }

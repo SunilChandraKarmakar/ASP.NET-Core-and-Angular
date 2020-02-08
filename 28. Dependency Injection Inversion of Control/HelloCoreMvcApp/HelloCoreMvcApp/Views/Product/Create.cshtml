@@ -2,7 +2,6 @@
 @model Product
 
 @{
-    List<Category> categories = ViewBag.CategoryList;
     ViewData["Title"] = "Create";
     Layout = "~/Views/Shared/_DashboardLayout.cshtml";
 }
@@ -23,12 +22,8 @@
             <div class="form-group">
                 <label asp-for="CategoryId" class="col-md-2 control-lable">Category</label>
                 <div class="col-md-10">
-                    <select asp-for="CategoryId" class="form-control">
-                        <option value="">-- Select Category --</option>
-                        @foreach (Category item in categories)
-                        {
-                            <option value="@item.Id">@item.Name</option>
-                        }
+                    <select asp-for="CategoryId" asp-items="ViewBag.CategoryList" class="form-control">
+                        <option value="">-- Select Category --</option>                        
                     </select>
                     <span asp-validation-for="CategoryId" class="text-danger"></span>
                 </div>

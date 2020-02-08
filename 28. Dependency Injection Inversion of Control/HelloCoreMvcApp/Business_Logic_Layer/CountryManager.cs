@@ -1,19 +1,21 @@
 ﻿using Business_Logic_Layer.BLL;
+using Business_Logic_Layer.Contracts;
 using Models;
 using ProjectRepositorys;
+using ProjectRepositorys.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Business_Logic_Layer
 {
-    public class CountryManager : Manager<Country>
+    public class CountryManager : Manager<Country>, ICountryManager
     {
-        private readonly CountryRepository _countryRepository;
+        private readonly ICountryRepository _iCountryRepository;
 
-        public CountryManager() : base(new CountryRepository())
+        public CountryManager(ICountryRepository iCountryRepository) : base(iCountryRepository)
         {
-            _countryRepository = new CountryRepository();    
+            _iCountryRepository = iCountryRepository;
         }        
     }
 }

@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Models;
 using ProjectRepositorys.Base;
+using ProjectRepositorys.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ using System.Text;
 
 namespace ProjectRepositorys
 {
-    public class CityRepository : Repository<City>
+    public class CityRepository : Repository<City>, ICityRepository
     {
         private readonly CoreDb _coreDb;
 
@@ -33,11 +34,6 @@ namespace ProjectRepositorys
             }
 
             return cityList;
-        }
-        
-        public List<Country> CountryList()
-        {
-            return _coreDb.Countries.ToList();
         }
     }
 }

@@ -6,14 +6,10 @@ namespace ProjectRepositorys.Contracts
 {
     public interface IRepository<T> where T : class
     {
-        ICollection<T> GetAll();
-
-        T GetById(int? id);
-
-        bool Add(T entity);
-
-        bool Update(T entity);
-
+        ICollection<T> GetAll();  
+        T GetById(int? id);       
+        bool Add(T entity);       
+        bool Update(T entity);    
         bool Remove(T entity);
     }
 }

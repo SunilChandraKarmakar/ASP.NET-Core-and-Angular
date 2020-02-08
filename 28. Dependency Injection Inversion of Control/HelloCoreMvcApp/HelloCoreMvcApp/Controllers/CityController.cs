@@ -3,31 +3,48 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Business_Logic_Layer;
+using Business_Logic_Layer.Contracts;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Models;
 using ProjectRepositorys;
+using ProjectRepositorys.Contracts;
 
 namespace HelloCoreMvcApp.Controllers
 {
     public class CityController : Controller
     {
-        private readonly CityManager _cityManager;
+        private readonly ICityManager _iCityManager;
+        private readonly ICountryManager _iCountryManager;
 
-        public CityController()
+        public CityController(ICityManager iCityManager, ICountryManager iCountryManager)
         {
-            _cityManager = new CityManager();
+            _iCityManager = iCityManager;
+            _iCountryManager = iCountryManager;
         }
 
         [HttpGet]
         public IActionResult Index()
         {
-            return View(_cityManager.GetAll());
+            return View(_iCityManager.GetAll());
+        }
+
+        private List<SelectListItem> CountryListItem()
+        {
+            List<SelectListItem> countryListItem = _iCountryManager.GetAll()
+                                                    .Select(c => new SelectListItem()
+                                                    {
+                                                        Value = c.Id.ToString(),
+                                                        Text = c.Name
+                                                    })
+                                                    .ToList();
+            return countryListItem;
         }
 
         [HttpGet]
         public IActionResult Create()
-        {
-            ViewBag.CountryList = _cityManager.CountryList();
+        {        
+            ViewBag.CountryListItem = CountryListItem();
             return View();
         }
 
@@ -36,7 +53,7 @@ namespace HelloCoreMvcApp.Controllers
         {
             if(ModelState.IsValid)
             {
-                bool isSave = _cityManager.Add(aCity);
+                bool isSave = _iCityManager.Add(aCity);
 
                 if (isSave)
                     return RedirectToAction("Index", "City");
@@ -44,7 +61,7 @@ namespace HelloCoreMvcApp.Controllers
                     return ViewBag.ErrorMessage = "City failed to save!";
             }
 
-            ViewBag.CountryList = _cityManager.CountryList();
+            ViewBag.CountryListItem = CountryListItem();
             return View(aCity);
         }
 
@@ -54,12 +71,12 @@ namespace HelloCoreMvcApp.Controllers
             if (Id == null)
                 return NotFound();
 
-            City aCity = _cityManager.GetById(Id);
+            City aCity = _iCityManager.GetById(Id);
 
             if (aCity == null)
                 return NotFound();
 
-            ViewBag.CountryList = _cityManager.CountryList();
+            ViewBag.CountryListItem = CountryListItem();
             return View(aCity);
         }
 
@@ -68,7 +85,7 @@ namespace HelloCoreMvcApp.Controllers
         {
             if(ModelState.IsValid)
             {
-                bool isUpdate = _cityManager.Update(aCity);
+                bool isUpdate = _iCityManager.Update(aCity);
 
                 if (isUpdate)
                     return RedirectToAction("Index", "City");
@@ -76,7 +93,7 @@ namespace HelloCoreMvcApp.Controllers
                     return ViewBag.ErrorMessage = "City update failed!";
             }
 
-            ViewBag.CountryList = _cityManager.CountryList();
+            ViewBag.CountryListItem = CountryListItem();
             return View(aCity);
         }
 
@@ -86,7 +103,7 @@ namespace HelloCoreMvcApp.Controllers
             if (Id == null)
                 return NotFound();
 
-            City aCity = _cityManager.GetById(Id);
+            City aCity = _iCityManager.GetById(Id);
 
             if (aCity == null)
                 return NotFound();
@@ -97,7 +114,7 @@ namespace HelloCoreMvcApp.Controllers
         [HttpPost]
         public IActionResult Delete(City aCity)
         {
-            bool isDelete = _cityManager.Remove(aCity);
+            bool isDelete = _iCityManager.Remove(aCity);
 
             if (isDelete)
                 return RedirectToAction("Index", "City");
