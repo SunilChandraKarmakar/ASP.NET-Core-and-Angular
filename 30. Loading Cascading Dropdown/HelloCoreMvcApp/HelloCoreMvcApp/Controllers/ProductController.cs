@@ -136,5 +136,12 @@ namespace HelloCoreMvcApp.Controllers
             List<Product> productList = _iProductManager.GetProductByCategoryId(categoryId);
             return Json(productList);
         }
+
+        [Route("api/[controller]/[action]")]
+        public JsonResult GetProductDetailsByProductId(int productId)
+        {
+            Product aProduct = _iProductManager.GetById(productId);
+            return Json(aProduct);
+        }
     }
 }

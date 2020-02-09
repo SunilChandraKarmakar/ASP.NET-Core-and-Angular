@@ -33,6 +33,22 @@
         </form>
     </div>
 </div>
+<div class="row">
+    <div class="col-md-6">
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Description</th>
+                    <th>IsActive</th>
+                </tr>
+            </thead>
+            <tbody id="productDetailsTable">
+            </tbody>
+        </table>
+    </div>
+</div>
 
 @section Scripts
 {
@@ -42,6 +58,7 @@
                 var categoryId = $("#CategoryId").val();
                 var serverUrl = "/api/Product/GetProductByCategoryId?CategoryId=" + categoryId;
                 $("#ProductId").empty();
+                $("#productDetailsTable").empty();
                 $("#ProductId").append('<option value="">-- Select Product --</option>'); 
 
                 $.ajax({
@@ -55,7 +72,22 @@
                         alert(response);
                     }
                 });
-            });     
+            });
+            $("#ProductId").change(function () {
+                var productId = $("#ProductId").val();
+                var serverUrl = "/api/Product/GetProductDetailsByProductId?ProductId=" + productId;
+                $("#productDetailsTable").empty();
+
+                $.ajax({
+                    url: serverUrl,
+                    success: function (response) {
+                        $("#productDetailsTable").append('<tr><td>' + response.name + '</td><td>' + response.price + '</td><td>' + response.description + '</td><td>' + response.isActive + '</td></tr>');   
+                    },
+                    error: function (response) {
+                        alert("Error");
+                    }
+                });
+            });       
         });
     </script>
 }
