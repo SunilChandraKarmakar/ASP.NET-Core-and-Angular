@@ -1,0 +1,62 @@
+﻿@using HelloCoreMvcApp.Models.Product
+@model CategoryWiseProductViewModel
+
+@{
+    ViewData["Title"] = "CategoryWiseProduct";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<h1>Category Wise Product</h1>
+<hr />
+
+<div class="row">
+    <div class="col-md-12">
+        <form>
+            <div class="form-group">
+                <label asp-for="CategoryId" class="col-md-2 control-lable">Category</label>
+                <div class="col-md-5">
+                    <select asp-for="CategoryId" asp-items="ViewBag.CategoryList" class="form-control">
+                        <option value="">-- Select Category --</option>
+                    </select>
+                    <span asp-validation-for="CategoryId" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProductId" class="col-md-2 control-lable">Product</label>
+                <div class="col-md-5">
+                    <select asp-for="ProductId" class="form-control">
+                        <option value="">-- Select Category --</option>
+                    </select>
+                    <span asp-validation-for="ProductId" class="text-danger"></span>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts
+{
+    <script>
+        $(document).ready(function () {
+            $("#CategoryId").change(function () {
+                var categoryId = $("#CategoryId").val();
+                var serverUrl = "/api/Product/GetProductByCategoryId?CategoryId=" + categoryId;
+                $("#ProductId").empty();
+                $("#ProductId").append('<option value="">-- Select Product --</option>'); 
+
+                $.ajax({
+                    url: serverUrl,
+                    success: function (response) {
+                        $.each(response, (index, value) => {
+                            $("#ProductId").append('<option value=' + value.id + '>' + value.name + '</option>');
+                        });    
+                    },
+                    error: function (response) {
+                        alert(response);
+                    }
+                });
+            });     
+        });
+    </script>
+}
+
