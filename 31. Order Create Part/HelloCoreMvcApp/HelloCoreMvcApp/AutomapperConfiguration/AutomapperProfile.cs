@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using HelloCoreMvcApp.Models.Product;
+using HelloCoreMvcApp.Models.ProductModels;
 using Models;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,8 @@ namespace HelloCoreMvcApp.AutomapperConfiguration
         {
             CreateMap<Product, ProductIndexViewModel>();
             CreateMap<ProductCreateViewModel, Product>();
+            CreateMap<Order, OrderViewModel>();
+            CreateMap<OrderViewModel, Order>();
         }
     }
 }

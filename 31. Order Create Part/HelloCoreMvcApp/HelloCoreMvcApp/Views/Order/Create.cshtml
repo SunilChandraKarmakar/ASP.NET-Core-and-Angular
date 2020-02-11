@@ -24,6 +24,7 @@
                 <select asp-for="CustomerId" asp-items="Model.CustomerList" class="form-control">
                     <option value="">-- Select Customer --</option>
                 </select>
+                <span asp-validation-for="CustomerId" class="text-danger"></span>
             </div>
         </div>
         <div class="col-md-4">
@@ -40,33 +41,33 @@
 
     <div class="row">
         <div class="col-md-3">
-            <label asp-for="ProductId" class="col-md-2 control-label">Product</label>
+            <label for="ProductId" class="col-md-2 control-label">Product</label>
             <div class="col-md-16">
-                <select asp-for="ProductId" asp-items="Model.ProductList" class="form-control">
+                <select id="ProductId" asp-items="Model.ProductList" class="form-control">
                     <option value="">-- Select Product --</option>
                 </select>
-                <span asp-validation-for="ProductId" class="text-danger"></span>
+                <span for="ProductId" class="text-danger"></span>
             </div>
         </div>
         <div class="col-md-3">
-            <label asp-for="Qty" class="col-md-2 control-label">Quantity</label>
+            <label for="Qty" class="col-md-2 control-label">Quantity</label>
             <div class="col-md-16">
-                <input type="number" asp-for="Qty" class="form-control" />
-                <span asp-validation-for="Qty" class="text-danger"></span>
+                <input type="number" id="Qty" class="form-control" />
+                <span for="Qty" class="text-danger"></span>
             </div>
         </div>
         <div class="col-md-3">
-            <label asp-for="UnitPrice" class="col-md-6 control-label">Unit Price</label>
+            <label for="UnitPrice" class="col-md-6 control-label">Unit Price</label>
             <div class="col-md-16">
-                <input type="number" asp-for="UnitPrice" class="form-control" />
-                <span asp-validation-for="UnitPrice" class="text-danger"></span>
+                <input type="number" id="UnitPrice" class="form-control" />
+                <span for="UnitPrice" class="text-danger"></span>
             </div>
         </div>
         <div class="col-md-3">
-            <label asp-for="DiscountPercenteg" class="col-md-10 control-label">Discount Percenteg</label>
+            <label for="DiscountPercenteg" class="col-md-10 control-label">Discount Percenteg</label>
             <div class="col-md-16">
-                <input type="number" asp-for="DiscountPercenteg" class="form-control" />
-                <span asp-validation-for="DiscountPercenteg" class="text-danger"></span>
+                <input type="number" id="DiscountPercenteg" class="form-control" />
+                <span for="DiscountPercenteg" class="text-danger"></span>
             </div>
         </div>
     </div>
@@ -91,10 +92,16 @@
             </table>
         </div>
     </div>
+    <div class="row">
+        <div class="col-md-8">
+            <span class="text-danger">@ViewBag.ErrorMessage</span>
+            <input type="submit" value="Save" class="btn btn-primary" style="padding:7px 70px; margin-left:400px" />
+        </div>
+    </div>
 </form>
 
 @section Scripts
-{              
+{
     <script src="~/Scripts/orderScripts.js"></script>
 }
 

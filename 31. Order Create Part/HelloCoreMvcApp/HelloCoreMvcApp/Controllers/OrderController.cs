@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Business_Logic_Layer.Contracts;
 using HelloCoreMvcApp.Models.ProductModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Models;
 
 namespace HelloCoreMvcApp.Controllers
 {
@@ -14,13 +16,16 @@ namespace HelloCoreMvcApp.Controllers
         private readonly IOrderManager _iOrderManager;
         private readonly ICoustomerManager _iCoustomerManager;
         private readonly IProductManager _iProductManager;
+        private readonly IMapper _iMapper; 
         
         public OrderController(IOrderManager iOrderManager, 
-                                ICoustomerManager iCoustomerManager, IProductManager iProductManager)
+                                ICoustomerManager iCoustomerManager, 
+                                IProductManager iProductManager, IMapper iMapper)
         {
             _iOrderManager = iOrderManager;
             _iCoustomerManager = iCoustomerManager;
             _iProductManager = iProductManager;
+            _iMapper = iMapper;
         }
 
         [HttpGet]
@@ -47,13 +52,35 @@ namespace HelloCoreMvcApp.Controllers
             return productList;
         }
 
-        [HttpGet]
-        public IActionResult Create()
+        private OrderViewModel PassOrderViewData()
         {
             OrderViewModel orderViewModel = new OrderViewModel();
             orderViewModel.CustomerList = CustomerList();
             orderViewModel.ProductList = ProductList();
-            return View(orderViewModel);
+            return orderViewModel;
+        }
+
+        [HttpGet]
+        public IActionResult Create()
+        {             
+            return View(PassOrderViewData());
+        }
+
+        [HttpPost]
+        public IActionResult Create(OrderViewModel orderViewModel)
+        {
+            if(ModelState.IsValid)
+            {
+                Order aOrder = _iMapper.Map<Order>(orderViewModel);
+                bool isSave = _iOrderManager.Add(aOrder);
+
+                if (isSave)
+                    return RedirectToAction("Create", "Order");
+                else
+                    return ViewBag.ErrorMessage = "Order saved failed!";
+            }  
+            
+            return View(PassOrderViewData());
         }
     }
 }
