@@ -1,0 +1,105 @@
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Business_Logic_Layer.deps.json
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Business_Logic_Layer.dll
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Business_Logic_Layer.pdb
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.AssemblyInfoInputs.cache
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.AssemblyInfo.cs
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.dll
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.pdb
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Models.dll
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\ProjectRepositorys.dll
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\ProjectRepositorys.pdb
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Db_Context.pdb
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Models.pdb
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.csprojAssemblyReference.cache
+F:\C# Project\ASP.NET Core and Angular\26. Base Manager Implement\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.csproj.CopyComplete
+F:\C# Project\ASP.NET Core and Angular\27. Dependency Inversion Principle\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Business_Logic_Layer.deps.json
+F:\C# Project\ASP.NET Core and Angular\27. Dependency Inversion Principle\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Business_Logic_Layer.dll
+F:\C# Project\ASP.NET Core and Angular\27. Dependency Inversion Principle\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Business_Logic_Layer.pdb
+F:\C# Project\ASP.NET Core and Angular\27. Dependency Inversion Principle\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\27. Dependency Inversion Principle\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Models.dll
+F:\C# Project\ASP.NET Core and Angular\27. Dependency Inversion Principle\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\ProjectRepositorys.dll
+F:\C# Project\ASP.NET Core and Angular\27. Dependency Inversion Principle\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\ProjectRepositorys.pdb
+F:\C# Project\ASP.NET Core and Angular\27. Dependency Inversion Principle\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Db_Context.pdb
+F:\C# Project\ASP.NET Core and Angular\27. Dependency Inversion Principle\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Models.pdb
+F:\C# Project\ASP.NET Core and Angular\27. Dependency Inversion Principle\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.csprojAssemblyReference.cache
+F:\C# Project\ASP.NET Core and Angular\27. Dependency Inversion Principle\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.AssemblyInfoInputs.cache
+F:\C# Project\ASP.NET Core and Angular\27. Dependency Inversion Principle\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.AssemblyInfo.cs
+F:\C# Project\ASP.NET Core and Angular\27. Dependency Inversion Principle\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.csproj.CopyComplete
+F:\C# Project\ASP.NET Core and Angular\27. Dependency Inversion Principle\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.dll
+F:\C# Project\ASP.NET Core and Angular\27. Dependency Inversion Principle\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.pdb
+F:\C# Project\ASP.NET Core and Angular\28. Dependency Injection Inversion of Control\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Business_Logic_Layer.deps.json
+F:\C# Project\ASP.NET Core and Angular\28. Dependency Injection Inversion of Control\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Business_Logic_Layer.dll
+F:\C# Project\ASP.NET Core and Angular\28. Dependency Injection Inversion of Control\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Business_Logic_Layer.pdb
+F:\C# Project\ASP.NET Core and Angular\28. Dependency Injection Inversion of Control\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\28. Dependency Injection Inversion of Control\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Models.dll
+F:\C# Project\ASP.NET Core and Angular\28. Dependency Injection Inversion of Control\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\ProjectRepositorys.dll
+F:\C# Project\ASP.NET Core and Angular\28. Dependency Injection Inversion of Control\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\ProjectRepositorys.pdb
+F:\C# Project\ASP.NET Core and Angular\28. Dependency Injection Inversion of Control\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Db_Context.pdb
+F:\C# Project\ASP.NET Core and Angular\28. Dependency Injection Inversion of Control\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Models.pdb
+F:\C# Project\ASP.NET Core and Angular\28. Dependency Injection Inversion of Control\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.csprojAssemblyReference.cache
+F:\C# Project\ASP.NET Core and Angular\28. Dependency Injection Inversion of Control\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.AssemblyInfoInputs.cache
+F:\C# Project\ASP.NET Core and Angular\28. Dependency Injection Inversion of Control\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.AssemblyInfo.cs
+F:\C# Project\ASP.NET Core and Angular\28. Dependency Injection Inversion of Control\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.csproj.CopyComplete
+F:\C# Project\ASP.NET Core and Angular\28. Dependency Injection Inversion of Control\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.dll
+F:\C# Project\ASP.NET Core and Angular\28. Dependency Injection Inversion of Control\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.pdb
+F:\C# Project\ASP.NET Core and Angular\29. Automapper\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Business_Logic_Layer.deps.json
+F:\C# Project\ASP.NET Core and Angular\29. Automapper\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Business_Logic_Layer.dll
+F:\C# Project\ASP.NET Core and Angular\29. Automapper\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Business_Logic_Layer.pdb
+F:\C# Project\ASP.NET Core and Angular\29. Automapper\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\29. Automapper\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Models.dll
+F:\C# Project\ASP.NET Core and Angular\29. Automapper\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\ProjectRepositorys.dll
+F:\C# Project\ASP.NET Core and Angular\29. Automapper\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\ProjectRepositorys.pdb
+F:\C# Project\ASP.NET Core and Angular\29. Automapper\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Db_Context.pdb
+F:\C# Project\ASP.NET Core and Angular\29. Automapper\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Models.pdb
+F:\C# Project\ASP.NET Core and Angular\29. Automapper\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.csprojAssemblyReference.cache
+F:\C# Project\ASP.NET Core and Angular\29. Automapper\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.AssemblyInfoInputs.cache
+F:\C# Project\ASP.NET Core and Angular\29. Automapper\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.AssemblyInfo.cs
+F:\C# Project\ASP.NET Core and Angular\29. Automapper\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.csproj.CopyComplete
+F:\C# Project\ASP.NET Core and Angular\29. Automapper\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.dll
+F:\C# Project\ASP.NET Core and Angular\29. Automapper\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.pdb
+F:\C# Project\ASP.NET Core and Angular\30. Loading Cascading Dropdown\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Business_Logic_Layer.deps.json
+F:\C# Project\ASP.NET Core and Angular\30. Loading Cascading Dropdown\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Business_Logic_Layer.dll
+F:\C# Project\ASP.NET Core and Angular\30. Loading Cascading Dropdown\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Business_Logic_Layer.pdb
+F:\C# Project\ASP.NET Core and Angular\30. Loading Cascading Dropdown\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\30. Loading Cascading Dropdown\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Models.dll
+F:\C# Project\ASP.NET Core and Angular\30. Loading Cascading Dropdown\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\ProjectRepositorys.dll
+F:\C# Project\ASP.NET Core and Angular\30. Loading Cascading Dropdown\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\ProjectRepositorys.pdb
+F:\C# Project\ASP.NET Core and Angular\30. Loading Cascading Dropdown\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Db_Context.pdb
+F:\C# Project\ASP.NET Core and Angular\30. Loading Cascading Dropdown\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Models.pdb
+F:\C# Project\ASP.NET Core and Angular\30. Loading Cascading Dropdown\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.csprojAssemblyReference.cache
+F:\C# Project\ASP.NET Core and Angular\30. Loading Cascading Dropdown\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.AssemblyInfoInputs.cache
+F:\C# Project\ASP.NET Core and Angular\30. Loading Cascading Dropdown\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.AssemblyInfo.cs
+F:\C# Project\ASP.NET Core and Angular\30. Loading Cascading Dropdown\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.csproj.CopyComplete
+F:\C# Project\ASP.NET Core and Angular\30. Loading Cascading Dropdown\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.dll
+F:\C# Project\ASP.NET Core and Angular\30. Loading Cascading Dropdown\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.pdb
+F:\C# Project\ASP.NET Core and Angular\31. Order Create Part\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Business_Logic_Layer.deps.json
+F:\C# Project\ASP.NET Core and Angular\31. Order Create Part\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Business_Logic_Layer.dll
+F:\C# Project\ASP.NET Core and Angular\31. Order Create Part\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Business_Logic_Layer.pdb
+F:\C# Project\ASP.NET Core and Angular\31. Order Create Part\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\31. Order Create Part\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Models.dll
+F:\C# Project\ASP.NET Core and Angular\31. Order Create Part\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\ProjectRepositorys.dll
+F:\C# Project\ASP.NET Core and Angular\31. Order Create Part\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\ProjectRepositorys.pdb
+F:\C# Project\ASP.NET Core and Angular\31. Order Create Part\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Db_Context.pdb
+F:\C# Project\ASP.NET Core and Angular\31. Order Create Part\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Models.pdb
+F:\C# Project\ASP.NET Core and Angular\31. Order Create Part\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.csprojAssemblyReference.cache
+F:\C# Project\ASP.NET Core and Angular\31. Order Create Part\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.AssemblyInfoInputs.cache
+F:\C# Project\ASP.NET Core and Angular\31. Order Create Part\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.AssemblyInfo.cs
+F:\C# Project\ASP.NET Core and Angular\31. Order Create Part\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.csproj.CopyComplete
+F:\C# Project\ASP.NET Core and Angular\31. Order Create Part\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.dll
+F:\C# Project\ASP.NET Core and Angular\31. Order Create Part\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.pdb
+F:\C# Project\ASP.NET Core and Angular\32. Working with SQL View using EF Core\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Business_Logic_Layer.deps.json
+F:\C# Project\ASP.NET Core and Angular\32. Working with SQL View using EF Core\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Business_Logic_Layer.dll
+F:\C# Project\ASP.NET Core and Angular\32. Working with SQL View using EF Core\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Business_Logic_Layer.pdb
+F:\C# Project\ASP.NET Core and Angular\32. Working with SQL View using EF Core\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Db_Context.dll
+F:\C# Project\ASP.NET Core and Angular\32. Working with SQL View using EF Core\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Models.dll
+F:\C# Project\ASP.NET Core and Angular\32. Working with SQL View using EF Core\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\ProjectRepositorys.dll
+F:\C# Project\ASP.NET Core and Angular\32. Working with SQL View using EF Core\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\ProjectRepositorys.pdb
+F:\C# Project\ASP.NET Core and Angular\32. Working with SQL View using EF Core\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Db_Context.pdb
+F:\C# Project\ASP.NET Core and Angular\32. Working with SQL View using EF Core\HelloCoreMvcApp\Business_Logic_Layer\bin\Debug\netcoreapp3.1\Models.pdb
+F:\C# Project\ASP.NET Core and Angular\32. Working with SQL View using EF Core\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.csprojAssemblyReference.cache
+F:\C# Project\ASP.NET Core and Angular\32. Working with SQL View using EF Core\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.AssemblyInfoInputs.cache
+F:\C# Project\ASP.NET Core and Angular\32. Working with SQL View using EF Core\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.AssemblyInfo.cs
+F:\C# Project\ASP.NET Core and Angular\32. Working with SQL View using EF Core\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.csproj.CopyComplete
+F:\C# Project\ASP.NET Core and Angular\32. Working with SQL View using EF Core\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.dll
+F:\C# Project\ASP.NET Core and Angular\32. Working with SQL View using EF Core\HelloCoreMvcApp\Business_Logic_Layer\obj\Debug\netcoreapp3.1\Business_Logic_Layer.pdb
