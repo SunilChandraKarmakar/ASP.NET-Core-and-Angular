@@ -9,6 +9,6 @@ namespace Business_Logic_Layer.Contracts
     public interface IOrderManager : IManager<Order>
     {
         List<OrderInfoView> OrderInfoView();
-        ICollection<OrderViewModelSP> OrderViewModelSPs();
+        ICollection<OrderViewModelSP> OrderViewModelSPs(string cName, string oNo);
     }
 }

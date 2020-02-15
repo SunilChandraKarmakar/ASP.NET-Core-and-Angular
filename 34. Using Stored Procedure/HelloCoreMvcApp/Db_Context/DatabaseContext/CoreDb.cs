@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 using Models;
 using Models.ViewModel;
 using System;
@@ -44,9 +45,19 @@ namespace Db_Context.DatabaseContext
         }
 
         [Obsolete]
-        public ICollection<OrderViewModelSP> OrderViewModelSPs()
+        public ICollection<OrderViewModelSP> OrderViewModelSPs(String cName, string oNo)
         {
-            return this.Query<OrderViewModelSP>().FromSql("SP_OrderInfoView").ToList();
+            SqlParameter customerName = new SqlParameter();
+            customerName.ParameterName = "CustomerName";
+            customerName.DbType = System.Data.DbType.String;
+            customerName.Value = cName ?? (object) DBNull.Value;
+
+            SqlParameter orderNo = new SqlParameter();
+            orderNo.ParameterName = "OrderNo";
+            orderNo.DbType = System.Data.DbType.String;
+            orderNo.Value = oNo ?? (object) DBNull.Value;
+
+            return this.Query<OrderViewModelSP>().FromSql("SP_OrderInfoView @CustomerName, @OrderNo", customerName, orderNo).ToList();
         }
     }
 }

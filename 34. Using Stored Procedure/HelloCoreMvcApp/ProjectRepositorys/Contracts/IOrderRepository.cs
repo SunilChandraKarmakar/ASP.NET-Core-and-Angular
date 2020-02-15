@@ -9,6 +9,6 @@ namespace ProjectRepositorys.Contracts
     public interface IOrderRepository : IRepository<Order>
     {
         List<OrderInfoView> OrderInfoView();    
-        ICollection<OrderViewModelSP> OrderViewModelSPs();
+        ICollection<OrderViewModelSP> OrderViewModelSPs(string cName, string oNo);
     }
 }

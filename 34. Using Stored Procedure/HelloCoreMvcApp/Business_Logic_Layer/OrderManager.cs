@@ -22,9 +22,9 @@ namespace Business_Logic_Layer
             return _iOrderRepository.OrderInfoView();
         }
 
-        public ICollection<OrderViewModelSP> OrderViewModelSPs()
+        public ICollection<OrderViewModelSP> OrderViewModelSPs(string cName, string oNo)
         {
-            return _iOrderRepository.OrderViewModelSPs();
+            return _iOrderRepository.OrderViewModelSPs(cName, oNo);
         }
     }
 }

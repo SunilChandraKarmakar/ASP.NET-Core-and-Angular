@@ -12,8 +12,6 @@ namespace ProjectRepositorys
 {
     public class CityRepository : Repository<City>, ICityRepository
     {
-        private readonly CoreDb _coreDb;
-
         public CityRepository()
         {
             _coreDb = new CoreDb();

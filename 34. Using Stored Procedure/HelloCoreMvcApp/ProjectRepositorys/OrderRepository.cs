@@ -18,9 +18,9 @@ namespace ProjectRepositorys
         }
 
         [Obsolete]
-        public ICollection<OrderViewModelSP> OrderViewModelSPs()
+        public ICollection<OrderViewModelSP> OrderViewModelSPs(string cName, string oNo)
         {
-            return _coreDb.OrderViewModelSPs();
+            return _coreDb.OrderViewModelSPs(cName, oNo);
         }
     }
 }

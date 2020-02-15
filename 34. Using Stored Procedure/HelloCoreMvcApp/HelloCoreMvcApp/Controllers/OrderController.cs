@@ -86,9 +86,9 @@ namespace HelloCoreMvcApp.Controllers
         }
 
         [HttpGet]
-        public IActionResult OrderViewModelSP()
+        public IActionResult OrderViewModelSP(string cName, string oNo)
         {
-            ICollection<OrderViewModelSP> orderViewModelSPs = _iOrderManager.OrderViewModelSPs();
+            ICollection<OrderViewModelSP> orderViewModelSPs = _iOrderManager.OrderViewModelSPs(cName, oNo);
             return View(orderViewModelSPs);
         }
     }
