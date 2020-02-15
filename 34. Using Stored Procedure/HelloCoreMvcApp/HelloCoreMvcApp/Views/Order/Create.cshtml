@@ -1,0 +1,108 @@
+﻿@using HelloCoreMvcApp.Models.ProductModels
+@model OrderViewModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<h3>Order Info</h3>
+<hr />
+
+<form method="post" asp-action="Create" asp-controller="Order">
+    <div class="row" style="padding-bottom: 20px">
+        <div class="col-md-4">
+            <label asp-for="Date" class="col-md-4 control-label">Order Date</label>
+            <div class="col-md-10">
+                <input type="text" asp-for="Date" class="form-control" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <label asp-for="CustomerId" class="col-md-2 control-label">Customer</label>
+            <div class="col-md-10">
+                <select asp-for="CustomerId" asp-items="Model.CustomerList" class="form-control">
+                    <option value="">-- Select Customer --</option>
+                </select>
+                <span asp-validation-for="CustomerId" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <label asp-for="OrderNo" class="col-md-4 control-label"> Order No</label>
+            <div class="col-md-10">
+                <input type="text" asp-for="OrderNo" class="form-control" />
+                <span asp-validation-for="OrderNo" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+
+    <h3>Order Details</h3>
+    <hr />
+
+    <div class="row">
+        <div class="col-md-3">
+            <label for="ProductId" class="col-md-2 control-label">Product</label>
+            <div class="col-md-16">
+                <select id="ProductId" asp-items="Model.ProductList" class="form-control">
+                    <option value="">-- Select Product --</option>
+                </select>
+                <span for="ProductId" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label for="Qty" class="col-md-2 control-label">Quantity</label>
+            <div class="col-md-16">
+                <input type="number" id="Qty" class="form-control" />
+                <span for="Qty" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label for="UnitPrice" class="col-md-6 control-label">Unit Price</label>
+            <div class="col-md-16">
+                <input type="number" id="UnitPrice" class="form-control" />
+                <span for="UnitPrice" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label for="DiscountPercenteg" class="col-md-10 control-label">Discount Percenteg</label>
+            <div class="col-md-16">
+                <input type="number" id="DiscountPercenteg" class="form-control" />
+                <span for="DiscountPercenteg" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="margin-top:20px; margin-left:425px">
+        <div class="col-md-6">
+            <input type="button" id="addOrderBtn" value="Add Product" class="btn btn-success" />
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Unit Price</th>
+                        <th>Discount</th>
+                    </tr>
+                </thead>
+                <tbody id="orderDetails"></tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <span class="text-danger">@ViewBag.ErrorMessage</span>
+            <input type="submit" value="Save" class="btn btn-primary" style="padding:7px 70px" />
+            <a asp-action="Index" asp-controller="Order" class="btn btn-info" style="padding:7px 70px">Bact To List</a>
+        </div>
+    </div>
+</form>
+
+@section Scripts
+{
+    <script src="~/Scripts/orderScripts.js"></script>
+}
+

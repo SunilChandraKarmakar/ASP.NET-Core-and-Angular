@@ -1,0 +1,47 @@
+﻿@using Models.ViewModel
+@model IEnumerable<OrderInfoView>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<h1>Order Details</h1>
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        <a asp-action="Create" asp-controller="Order" class="btn btn-primary">Create Order</a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-10">
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Customer Name</th>
+                    <th>Order No</th>
+                    <th>Order Date</th>
+                    <th>Total Amount</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (OrderInfoView item in Model)
+                {
+                    <tr>
+                        <td>@item.CustomerName</td>
+                        <td>@item.OrderNo</td>
+                        <td>@item.OrderDate</td>
+                        <td>@item.TotalAmount</td>
+                        <td>
+                            <a asp-route-id="@item.Id" asp-action="Edit" class="btn btn-info">Edit</a>
+                            <a asp-route-id="@item.Id" asp-action="Delete" class="btn btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
