@@ -37,12 +37,10 @@ namespace HelloCoreMvcApp.Controllers.APIController
         }
 
         [HttpPost]
-        public IActionResult Post(ProductCreateViewModel productCreateViewModel)
+        public IActionResult Post(Product aProduct)
         {
             if(ModelState.IsValid)
             {
-                Product aProduct = _iMapper.Map<Product>(productCreateViewModel);
-
                 bool isSave = _iProductManager.Add(aProduct);
 
                 if (isSave)
@@ -54,7 +52,7 @@ namespace HelloCoreMvcApp.Controllers.APIController
             return BadRequest(ModelState);
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public IActionResult Put(int id, Product aProduct)
         {
             Product existsProduct = _iProductManager.GetById(id);
@@ -64,7 +62,14 @@ namespace HelloCoreMvcApp.Controllers.APIController
 
             if(ModelState.IsValid)
             {
-                _iMapper.Map<Product, Product>(aProduct, existsProduct);
+                existsProduct.CategoryId = aProduct.CategoryId;
+                existsProduct.Description = aProduct.Description;
+                existsProduct.IsActive = aProduct.IsActive;
+                existsProduct.Name = aProduct.Name;
+                existsProduct.Price = aProduct.Price;
+                existsProduct.OrderDetails = aProduct.OrderDetails;
+                existsProduct.Category = aProduct.Category;
+
                 bool isPut = _iProductManager.Update(existsProduct);
 
                 if (isPut)
