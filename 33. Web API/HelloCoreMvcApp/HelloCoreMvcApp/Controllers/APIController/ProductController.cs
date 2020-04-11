@@ -30,11 +30,11 @@ namespace HelloCoreMvcApp.Controllers.APIController
             return _iProductManager.GetAll(); 
         }
 
-        [HttpGet("{id}")]
-        public Product Get(int id)
-        {
-            return _iProductManager.GetById(id);
-        }
+        //[HttpGet("{id}")]
+        //public Product Get(int id)
+        //{
+        //    return _iProductManager.GetById(id);
+        //}
 
         [HttpPost]
         public IActionResult Post(Product aProduct)
